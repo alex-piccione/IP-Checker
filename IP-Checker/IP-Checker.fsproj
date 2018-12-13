@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>IPChecker</RootNamespace>
+    <AssemblyName>Alex75.IPChecker</AssemblyName>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <Version>0.1.0-alpha</Version>
+    <PackageId>Alex75.IP-Checker</PackageId>
+    <Company>DreamSoft</Company>
+    <Product>IP Checker</Product>
+    <RepositoryType>GIT</RepositoryType>
+    <Authors>Alessandro Piccione</Authors>
+    <RepositoryUrl>https://github.com/alex75it/IP-Checker</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.4" />
+  </ItemGroup>
+
+</Project>
