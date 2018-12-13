@@ -1,6 +1,7 @@
 namespace Tests
 
 open NUnit.Framework
+open Alex75.IPChecker
 
 [<TestClass>]
 type TestClass () =
@@ -11,4 +12,8 @@ type TestClass () =
 
     [<Test>]
     member this.Test1 () =
-        Assert.Pass()
+
+        let data = Main.GetData("")
+
+
+        Assert.NotNull(data)

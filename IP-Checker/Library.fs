@@ -1,5 +1,10 @@
-namespace IP_Checker
+module Alex75.IPChecker.Main
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+open Alex75.IPChecker.Objects
+
+
+
+let GetData (ipAddress:string) =
+
+
+    IPData(ipAddress)
