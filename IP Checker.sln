@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IP Checker", "IP-Checker\IP-Checker.fsproj", "{F42DC2E8-FAC8-46A2-B73F-52361AE6E199}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IP-Checker", "IP-Checker\IP-Checker.fsproj", "{F42DC2E8-FAC8-46A2-B73F-52361AE6E199}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IP Checker.Test", "IP-Checker.Test\IP-Checker.Test.fsproj", "{7567295B-8FE1-47BA-A027-DAD90CF3C187}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IP-Checker.Test", "IP-Checker.Test\IP-Checker.Test.fsproj", "{7567295B-8FE1-47BA-A027-DAD90CF3C187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DB5E95F-4BBA-451F-ADCE-D5C70F34E7B7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

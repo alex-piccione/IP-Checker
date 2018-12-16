@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>IPChecker</RootNamespace>
     <AssemblyName>Alex75.IPChecker</AssemblyName>
-    <AssemblyVersion>0.1.0.0</AssemblyVersion>
-    <Version>0.1.0-alpha</Version>
-    <PackageId>Alex75.IP-Checker</PackageId>
+    <AssemblyVersion>#{package version}#-alpha</AssemblyVersion>
+    <Version>0.1.1-alpha</Version>
+    <PackageId>Alex75.IPChecker</PackageId>
     <Company>DreamSoft</Company>
     <Product>IP Checker</Product>
     <RepositoryType>GIT</RepositoryType>
@@ -17,6 +17,10 @@
   <ItemGroup>
     <Compile Include="Objects.fs" />
     <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.4.0" />
   </ItemGroup>
 
   <ItemGroup>
